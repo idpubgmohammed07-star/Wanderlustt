@@ -1,0 +1,201 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+
+/* icon */
+.navbar-brand{
+    color: #fe424d !important;
+    font-size: 1.5rem !important;
+}
+
+/* anchor  */
+.nav-link{
+    color: black !important;
+}
+
+
+
+/* Footer  */
+
+.f-into-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 0.7rem;
+}
+.f-into-links a:hover {
+    text-decoration: underline;
+}
+
+.f-into-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    font-size: 1rem;
+    margin-right: 0.7rem;
+}
+
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Card */
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.rcard{
+    border: 1px solid grey !important;
+}
+
+.rcard p{
+    font-size: 0.87rem;
+}
+
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* SHOW PAGE */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+.btns button{
+    margin-right: 1rem;
+}
+
+
+/* Map  */
+
+#map{
+    height: 400px;
+    width: 80vh;
+}
+
+/* My Additional Styling */
+
+a.nav-link{
+  border: 1px ;
+  border-radius: 0.8rem;
+}
+
+
+a.nav-link:hover{
+    background: #ebebeb;
+}
+
+
+a.red-hover:hover{
+    background-color: #fe424d;
+    color: white !important;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+ }
+
+.logo i {
+    font-size: 1.5rem;
+}
+
+button.btn-search{
+    background-color: #fe424d;
+    color: white;
+    border-radius: 25px;
+    padding : 0 1rem 0 1rem;
+}
+
+button.btn-search:hover{
+    background-color: #fe424d;
+    color: white;
+}
+
+button.btn.btn-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+ 
+input.search-inp{
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 0.9rem;
+}
