@@ -2,8 +2,7 @@
 
 Wanderlustt is a full-stack travel accommodation listing platform designed to connect travelers with various accommodation options. With features like user authentication, image upload, and reviews, Wanderlustt provides a streamlined experience to book and review accommodations around the world.
 
-## Live Demo
-
+# Deployed Link :- 
 You can view the deployed application at [this link](https://wanderlustt-x1tf.onrender.com).
 
 
@@ -22,11 +21,13 @@ You can view the deployed application at [this link](https://wanderlustt-x1tf.on
 - **Reviews**: Users can leave reviews and ratings for their stays, helping others make informed decisions.
 
 ## Technologies Used
-- **Front-end**: React, Redux, CSS, Bootstrap
+- **Front-end**: Javascript, CSS, Bootstrap
 - **Back-end**: Node.js, Express
 - **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Tokens) for secure authentication
-- **Cloud Storage**: AWS S3 for image uploads
+- **Validation**: JOI
+- **Authentication**: Passport Library
+- **Cloud Storage**: Cloudinary
+- **Map API** : Mapbox
 
 ## Getting Started
 To get a local copy up and running follow these simple steps:
